@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'dumi-template';
+const repo = 'map.jsx';
 
 export default defineConfig({
   title: repo,
@@ -18,7 +18,7 @@ export default defineConfig({
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/umijs/dumi-template',
+      path: 'https://github.com/umijs/map.jsx',
     },
   ],
   // more config: https://d.umijs.org/config

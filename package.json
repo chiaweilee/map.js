@@ -1,7 +1,6 @@
 {
-  "private": true,
-  "name": "dumi-template",
-  "version": "1.0.0",
+  "name": "map.jsx",
+  "version": "0.0.1",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -14,6 +13,8 @@
     "test:coverage": "umi-test --coverage"
   },
   "main": "dist/index.js",
+  "unpkg": "dist/index.umd.min.js",
+  "jsdelivr": "dist/index.umd.min.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
   "gitHooks": {
@@ -21,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/umijs/dumi-template",
+    "url": "https://github.com/chiaweilee/map.jsx",
     "branch": "main"
   },
   "lint-staged": {
@@ -32,7 +33,7 @@
       "prettier --parser=typescript --write"
     ]
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.12.0"
   },
   "devDependencies": {
